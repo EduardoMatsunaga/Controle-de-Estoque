@@ -1,7 +1,16 @@
-1) Classe abstrata 
-CodigoProduto	      NomeProduto	      Preco	        QtdEstoque
-int                    String	        double	          int
-2) Classe Principal
+[README_enunciado.md](https://github.com/user-attachments/files/33743369/README_enunciado.md)
+
+## Enunciado
+
+### 1) Classe abstrata (registro)
+
+| CodigoProduto | NomeProduto | Preco    | QtdEstoque |
+|---------------|-------------|----------|------------|
+| `int`         | `String`    | `double` | `int`      |
+
+### 2) Classe Principal
+
+
 MENU ESTOQUE
 Controle de estoque da loja
 1 - Cadastro de Produtos
@@ -11,15 +20,17 @@ Controle de estoque da loja
 5 - Busca por código
 9 - Finaliza
 
-Criar o vetor de 8 produtos, instanciar a classe de métodos e montar o menu.
 
-3) Classe de Métodos
+Criar o vetor de 8 produtos, instanciar a classe de métodos e montar o menu com `while` e `switch`.
+
+### 3) Classe de Métodos
 
 Todas as consultas exibem todos os campos: código, nome, preço e quantidade.
 
-#	Método	                  Tipo                                              Descricao
-1	FCadastraProduto	       função	                                     Cadastra os 8 registros
-2	PFaixaPreco	           procedimento	                            Produtos com preço > 50 e < 200
-3	PConsultaEstoque	     procedimento	                    Produto com maior e com menor quantidade em estoque
-4	PValorTotal	           procedimento	             Valor em estoque de cada produto (preço × quantidade) e o total geral
-5	PBuscaCodigo	         procedimento	               Pede um código e exibe o produto; se não existir, "Produto não encontrado"
+| # | Método | Tipo | Descrição |
+|---|--------|------|-----------|
+| 1 | `FCadastraProduto` | função | Cadastra os 8 registros |
+| 2 | `PFaixaPreco` | procedimento | Produtos com preço > 50 e < 200 |
+| 3 | `PConsultaEstoque` | procedimento | Produto com maior e com menor quantidade em estoque |
+| 4 | `PValorTotal` | procedimento | Valor em estoque de cada produto (preço × quantidade) e o total geral |
+| 5 | `PBuscaCodigo` | procedimento | Pede um código e exibe o produto; se não existir, exibe "Produto não encontrado" |
